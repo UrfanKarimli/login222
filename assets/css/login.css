@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+.loginpage {
+    height: 100vh;
+    min-height: 700px;
+    display: flex !important;
+    flex-wrap: wrap;
+    
+}
+
+.loginside {
+    height: 100vh;
+    min-height: 700px;
+    border: 1px solid none;
+    background-color: #f6f7fc;
+    min-height: 700px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+}
+
+.login-container {
+    border: 1px solid none;
+    height: 500px;
+    width: 600px;
+}
+
+.login-container h3 {
+    text-align: start;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.2;
+}
+
+.login-container h3 b {
+    font-weight: bolder;
+}
+
+div p {
+    margin-bottom: 24px;
+    color: #b3b3b3;
+    font-weight: 300;
+}
+
+.register input {
+    border: none;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    height: 54px;
+    background: #fff;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 16px;
+}
+.register label {
+    display: inline-block;
+}
+.remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+    font-size: 14px;
+} 
+#checkbox {
+    height: 20px;
+    width: 20px;
+    color: #fb771a;
+}
+button {
+    height: 54px;
+    width: 100%;
+    padding: 6px 12px;
+    color: #fff;
+    background-color: #fb771a;
+    cursor: pointer;
+    border-color: #fb771a;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: none;
+
+}
+.imgside {
+    background-image: url(../img/images.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    display: block;
+    order: 2;
+    border: 1px solid none;
+
+}
